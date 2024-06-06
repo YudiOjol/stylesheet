@@ -1,0 +1,47 @@
+<style lang='css'>
+    body {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+/* Style for star rating (using Font Awesome) */
+.rating {
+  color: #ffc107;
+  font-size: 16px;
+}
+
+.rating i {
+  margin-right: 2px;
+}
+
+  </style>
+  
